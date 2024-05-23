@@ -70,3 +70,37 @@
     "Hindi (Intermediate)"
   ]
 }
+
+
+
+
+
+
+
+2.   # Using conditons for the above JSON data
+
+// Using `for` loop to iterate over the skills array
+console.log('Skills using for loop:');
+for (let i = 0; i < resume.skills.length; i++) {
+  console.log(resume.skills[i]);
+}
+
+// Using `for...in` to iterate over the properties of the resume object
+console.log('\nResume properties using for...in:');
+for (let key in resume) {
+  if (resume.hasOwnProperty(key)) {
+    console.log(key + ':', resume[key]);
+  }
+}
+
+// Using `for...of` to iterate over the responsibilities array of the first experience
+console.log('\nResponsibilities using for...of:');
+for (let responsibility of resume.experience[0].responsibilities) {
+  console.log(responsibility);
+}
+
+// Using `forEach` to iterate over the certifications array
+console.log('\nCertifications using forEach:');
+resume.certifications.forEach(certification => {
+  console.log(certification.name + ' issued by ' + certification.issuing_organization);
+});
