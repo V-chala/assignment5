@@ -1,0 +1,72 @@
+{
+  "name": "Venkat",
+  "contact": {
+    "email": "venkat.kh@exmple.com",
+    "phone": "91-916789-4500",
+    "address": "123 Main St, Adyar, chennai"
+  },
+  "summary": "Experienced software developer with a strong background in full-stack development and a passion for creating robust web applications.",
+  "experience": [
+    {
+      "title": "Senior Software Developer",
+      "company": "Tech Solutions Inc.",
+      "location": "doshi gardens, Chennai",
+      "start_date": "January 2020",
+      "end_date": "Present",
+      "responsibilities": [
+        "Led a team of developers to design and implement scalable web applications.",
+        "Collaborated with product managers to define project requirements and timelines.",
+        "Implemented new features and optimized existing code for better performance."
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "Web Innovations Ltd.",
+      "location": "nugambakkam, Chennai",
+      "start_date": "June 2016",
+      "end_date": "December 2019",
+      "responsibilities": [
+        "Developed and maintained web applications using JavaScript, HTML, and CSS.",
+        "Worked with back-end developers to integrate APIs and ensure seamless data flow.",
+        "Participated in code reviews and provided constructive feedback to peers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "State University",
+      "location": "ramapuram, Chennai",
+      "graduation_year": 2016
+    }
+  ],
+  "skills": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Git",
+    "Agile methodologies"
+  ],
+  "certifications": [
+    {
+      "name": "Certified JavaScript Developer",
+      "issuing_organization": "Tech Certify",
+      "issue_date": "March 2018"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "description": "Developed a full-stack e-commerce platform using React for the front-end and Node.js for the back-end.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "link": "https://github.com/johndoe/ecommerce-platform"
+    }
+  ],
+  "languages": [
+    "Tamil (Native)",
+    "Hindi (Intermediate)"
+  ]
+}
